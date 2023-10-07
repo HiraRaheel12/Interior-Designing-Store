@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type = "image/png" href="assets/favicon.png">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--JS-->
+    <script src="index.js"></script>
+    <!--Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!--Fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--Bootstrap Links-->
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Flickity Plugin-->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script> 
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Interrio</title>
+</head>
+<body>
+
+    <div id="preloader"></div> 
+    
+    <!--Nav Bar-->
+    <app-navbar></app-navbar>
+
+    <!-- Hero section -->
+     <section id="hero-section">
+        <div class="hero-section-content fadeandscaleIn">
+            <h1>BUILD YOUR ELEGANT DREAM HOME INTERIOR</h1>
+            <p>Our power of choice is untrammelled and when nothing prevents our able to to being best prevents</p>
+            <div class="hero-section-buttons">
+                <a href="about_us.html">Learn More</a>
+                <a href="#projects">Latest Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About  Section -->
+     <section id="aboutUs">
+        <div class="aboutUs-content">
+            <div class="main-content">
+                <h1>About Us</h1>
+                <p>We are a team of professional, energetic individuals with talented designers and experienced managers available to guide our clients through the flawless and timely execution of any residential design project. Since day one, we have been delivering creative and cozy interiors to our clients worldwide. <br><br>
+                From the moment of our inception, we have consistently strived to bring imaginative and inviting interiors to homes around the globe. Our journey has been marked by a deep commitment to excellence, and we take pride in the artistry and functionality we bring to every project we undertake.
+                </p>
+                <div id="counter">
+                    <div class="numbers">
+                        <h2  id="count1"></h2>
+                        <h4>Years  of Experience</h4>
+                    </div>
+                    <div class="numbers">
+                        <h2  id="count2"></h2>
+                        <h4>Clients around the world</h4>
+                    </div>
+                    <div class="numbers">
+                        <h2 id="count3"></h2>
+                        <h4>Projects Completed</h4>
+                    </div>
+                </div>
+                <a href = "about_us.html">Read More</a>
+            </div>
+            <div class="img">
+                <img src="assets/about-us-1.jpg" alt="">
+            </div>
+        </div>
+    </section> 
+
+    <!--CTA Section-->
+
+    <section id="cta">
+        <div class="cta-section">
+            <marquee  behaviour="scroll" direction="left" scrollamount="16">Construction &nbsp&nbsp Interior Design &nbsp&nbsp Modern Structure
+                &nbsp&nbsp Thinking out of the box </marquee>
+        </div>
+    </section> 
+    
+    <!--Services-->
+
+    <section id="services">
+        <div class="services-header-content">
+            <h1>Services We Do</h1> 
+            <p>Designing Interiors That Leave a Lasting Impression</p>
+            <a href="services.html">All Services</a>
+        </div>
+        <div class="services-container">
+            <div class="services-content">
+                <img src="assets/services-4.jpg" alt="">
+                <div class="services-subcontent">
+                    <span class="material-icons-outlined">rate_review</span>
+                    <h1>Concepts Designs</h1>
+                    <p>Indignation dislike are beguile works & demoralized the charms except to obtain some advantage from it.</p>
+                </div>
+                <button><span class="material-icons-outlined">arrow_right_alt</span></button>
+            </div>
+            <div class="services-content">
+                <img src="assets/services-5.jpg" alt="">
+                <div class="services-subcontent">
+                    <span class="material-icons-outlined">space_dashboard</span>
+                    <h1>Project Designs</h1>
+                    <p>Our power of choice untrammelled all nothing prevents best choice untrammeled when nothing prevents .</p>
+                </div>
+                <button><span class="material-icons-outlined">arrow_right_alt</span></button>
+            </div>
+            <div class="services-content">
+                <img src="assets/services-6.jpg" alt="">
+                <div class="services-subcontent">
+                    <span class="material-icons-outlined">living</span>
+                    <h1>Make Overs</h1>
+                    <p>Every pleasure to be welcomed every circumstances and owing power occur that repudiated & annoyances .</p>
+                </div>
+                <button><span class="material-icons-outlined">arrow_right_alt</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+
+   <section id="projects">
+        <div class="projects-header-content">
+            <h1>Featured Projects</h1>
+            <p>Designing the Extraordinary, Where Creativity Meets Functional Artistry.</p>
+        </div>
+        <div class="list-projects">
+            <div class="projects-content">
+                <img src="assets/project-1.png" alt="" id="project-1">
+                <div class="project-subcontent">
+                    <div class="project-info">
+                        <h1>Luxe Living Space</h1>
+                        <h4>Decor / Architecture</h4>
+                    </div>
+                    <button class="material-icons">chevron_right</button>
+                </div>
+            </div>
+            <div class="projects-content">
+                <img src="assets/project-2.jpg" alt="" id="project-2">
+                <div class="project-subcontent">
+                    <div class="project-info">
+                        <h1>Modern Bedroom Design</h1>
+                        <h4>Decor / Architecture</h4>
+                    </div>
+                    <button class="material-icons">chevron_right</button>
+                </div>
+            </div>
+            <div class="projects-content">
+                <img src="assets/project-3.jpg" alt="" id="project-3">
+                <div class="project-subcontent">
+                    <div class="project-info">
+                        <h1>Modern Kitchen</h1>
+                        <h4>Decor / Architecture</h4>
+                    </div>
+                    <button class="material-icons">chevron_right</button>
+                </div>
+            </div>
+            <div class="projects-content">
+                <img src="assets/project-4.png" alt="" id="project-4">
+                <div class="project-subcontent">
+                    <div class="project-info">
+                        <h1>Modern Bathroom</h1>
+                        <h4>Decor / Architecture</h4>
+                    </div>
+                    <button class="material-icons">chevron_right</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blogs -->
+
+    <section id="blogs">
+        <div class="blogs-container">
+            <div class="blogs-header-content">
+                <h1>Latest News</h1>
+                <p>Discover the Latest in Interior Design</p>
+            </div>
+            <div class="carousel carousel-main" data-flickity='{ "groupCells": true, "autoPlay": true, "pageDots": true}'>
+                <div class="carousel-cell" id="blog-1">
+                <img  src="assets/blogs-1.jpg" alt="">
+                <div class="blogs-content">
+                        <h5>May 18, 2023 / Insights</h5>
+                        <h3>Biophilic Design: Connecting Nature and Interiors for Well-being</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                </div> 
+                </div> 
+                <div class="carousel-cell" id="blog-2">
+                    <img src="assets/blogs-2.jpg" alt="">
+                    <div class="blogs-content">
+                        <h5>May 30, 2023 / News</h5>
+                        <h3>Emerging Trends: Exploring the latest in Interior Design</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                    </div> 
+                </div>
+                <div class="carousel-cell" id="blog-3">
+                    <img  src="assets/blogs-9.jpg" alt="">
+                    <div class="blogs-content">
+                        <h5>June 5, 2023 / Insights</h5>
+                        <h3>Kitchen Interior Design: The Ultimate Guide to Your Kitchen Remodel</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                    </div> 
+                </div>
+                <div class="carousel-cell" id="blog-4">
+                    <img src="assets/blogs-4.jpg" alt="">
+                    <div class="blogs-content">
+                        <h5>May 30, 2023 / News</h5>
+                        <h3>Open Concept Living: Embracing Airy Interior Layouts</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                    </div> 
+                </div>
+                <div class="carousel-cell" id="blog-5">
+                    <img src="assets/blogs-5.jpg" alt="">
+                    <div class="blogs-content">
+                        <h5>June 15, 2023 / News</h5>
+                        <h3>Balance in Interior Design: Harmonious, Calming Home Design</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                    </div> 
+                </div>
+                <div class="carousel-cell" id="blog-6">
+                    <img src="assets/blogs-6.jpg" alt="">
+                    <div class="blogs-content">
+                        <h5>June 15, 2023 / Insights</h5>
+                        <h3>Interior Design Trends 2023: Must-Have Looks for a Stylish Home</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                    </div> 
+                </div>
+                <div class="carousel-cell" id="blog-7">
+                    <img src="assets/blogs-7.jpg" alt="">
+                    <div class="blogs-content">
+                        <h5>July 1, 2023 / News</h5>
+                        <h3>Modern Living Room Interior Design: Style and Functionality</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                    </div> 
+                </div>
+                <div class="carousel-cell" id="blog-8">
+                    <img src="assets/blogs-8.jpg" alt="">
+                    <div class="blogs-content">
+                        <h5>July 8, 2023 / Insights</h5>
+                        <h3>Global Design Inspirations: Cultural Influences in Interiors</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                    </div> 
+                </div>
+                <div class="carousel-cell" id="blog-9">
+                    <img src="assets/blogs-3.jpg" alt="">
+                    <div class="blogs-content">
+                        <h5>July 20, 2023 / Insights</h5>
+                        <h3>Artistic Expressions: Incorporating Art into Interior Design</h3>
+                        <a href="">Read More<span class="material-icons">play_arrow</span></a>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Members -->
+
+    <section id="team-section">
+        <div class="team-section-content">
+            <div class="team-header-content">
+                <h1>Meet the Masters of Interior Design</h1>
+                <p>One Team, Infinite Possibilities</p>
+            </div>
+            <team-members></team-members>
+        </div>
+    </section> 
+
+    <!--Contact-->
+
+    <app-contact></app-contact>
+
+    <!--Footer-->
+
+    <app-footer></app-footer>
+
+</body>
+</html>
