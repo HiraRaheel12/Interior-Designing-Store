@@ -1,5 +1,9 @@
 # Interior-Designing-Store
 
+## About - Interrio
+
+This project is a website for an interior design store, featuring a wide range of interior design services and products.
+
 ## Pages
 
 1. **Home**: The home page showcases our featured interior designs gallery, recent projects, team members, and more.
